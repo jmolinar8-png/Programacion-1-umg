@@ -1,38 +1,13 @@
-// Ejemplo de utilización de matrices codigo heredado de C
-//Declaraciòn de Bibliotecas y librerias estandar de C++
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
+#include "tablafutbol.h"
 #include <iostream>
 #include <iomanip>
+ using namespace std;
 
-using namespace std;
-//Declaraciòn de Constantes
-#define NUMERO_EQUIPOS 10
-#define NUMERO_PARTIDOS 4
-#define MAX_CALIFICACION 3
-#define MIN_CALIFICACION 0
-#define MAXIMA_LONGITUD_CADENA 100
-
-//declaracion de varibles
-int NUMERO_GANADOS= 0;
-int NUMERO_PERDIDOS=0;
-int NUMERO_EMPATES=0;
-
-//Declaraciòn de Prototipos de Funciòn
-void llamaCiclo();   //Funciòn que controla el Ciclo comparativo
-void llenarMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS+1]); //
-void imprimirMatrizLinea(); //Funciòn que apoya el despliegue de titulos en el comparativo de facultades
-int imprimirMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS+1], char equipos[NUMERO_EQUIPOS][MAXIMA_LONGITUD_CADENA], string nombreLiga);
-//Funciòn que permite el despliegue de cada facultad con sus alumnos y el calculo de promedios (menor y mayor)
-int main()
+tablafutbol::tablafutbol()
 {
-    srand(time(0)); //Proceso preparativo para generaciòn de valores aleatorios
-    llamaCiclo();
-    return 0;
+
 }
-void llamaCiclo()
+void tablafutbol::llamaCiclo()
 {
     //declaracion de matriz
     int matrizLaliga[NUMERO_EQUIPOS][NUMERO_PARTIDOS+1];
@@ -41,14 +16,14 @@ void llamaCiclo()
     //declaracion de variables que guardara el resultado de la tabla
 
     //declaracion de los nombres de los equipos en la matriz, filas
-    char equipos[NUMERO_EQUIPOS][MAXIMA_LONGITUD_CADENA]= {"Real Madrid CF","FC Barcelona","Atletico De Madrid","Real Sociedad","Atlethic Club Bilbao","Real Betis", "Villarreal CF","Girona FC","valencia FC","Getafe CF"};
+    char equipos[NUMERO_EQUIPOS][MAXIMA_LONGITUD_CADENA]= {"Real Madrid CF","FC Barcelona","Atletico De Madrid","Real Sociedad","Atlethic Club","Real Betis", "Villarreal CF","Girona FC","valencia FC","Getafe CF"};
 // ciclo de comparaciones entre equipos
 
 do {
     system("cls");
 
     cout <<"========================================" << endl;
-    cout <<" SIMULADOR DE TEMPORDAD 2026: LA LIGA " << endl;
+    cout <<" SIMULADOR DE TEMPORADAD 2026: LA LIGA " << endl;
     cout <<"========================================"<< endl;
 
     //ejecucion de funciones
@@ -66,8 +41,7 @@ do {
 cout <<"Simulacion terminada." << endl;
 }
 
-
-void llenarMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS + 1])
+void tablafutbol::llenarMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS + 1])
 {
     //Funciòn que permite llenar cada matriz con valores aleatorios
     int y, x;
@@ -89,19 +63,19 @@ void llenarMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS + 1])
     }
 }
 
-void imprimirMatrizLinea()
+void tablafutbol::imprimirMatrizLinea()
 {
     //Funciòn que despliega titulo de cada nota calculada
     int x;
 
-        cout << "+--------------";
+        cout << "+----------";
     for (x = 0; x < NUMERO_PARTIDOS + 1; x++)
     {
-        cout << "+--------------";
+        cout << "+----------";
     }
     cout << "+\n";
 }
-int imprimirMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS + 1], char equipos[NUMERO_EQUIPOS][MAXIMA_LONGITUD_CADENA], string nombreLiga)
+int tablafutbol::imprimirMatriz(int matriz[tablafutbol::NUMERO_EQUIPOS][tablafutbol::NUMERO_PARTIDOS + 1], char equipos[tablafutbol::NUMERO_EQUIPOS][tablafutbol::MAXIMA_LONGITUD_CADENA], string nombreLiga)
 {
     //Funciòn que imprime la matriz en pantalla y realizando los calculos necesarios del promedio
     int y, x;
@@ -120,13 +94,13 @@ int imprimirMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS + 1], char equipos
     cout << nombreLiga << endl;
     cout << "(p1)=>jornada 1  (p2)=>jornada 2 (p3)=>jornada 3 (p4)=>jornada 4 " << endl;
     imprimirMatrizLinea();
-    cout << "!" << setw(15) << "Equipo" << "!";
+    cout << "!" << setw(15) << "Equipo   " << "!";
     for (x = 0; x < NUMERO_PARTIDOS; x++)
     {
-        cout << setw(5) <<"P" << x + 1 << "!";
+        cout << setw(4) <<"      P" << x + 1 << "!";
     }
 
-    cout << setw(7) << "Total" << endl;
+    cout << setw(5) << "     Total" << endl;
     imprimirMatrizLinea();
 
     for (y = 0; y < NUMERO_EQUIPOS; y++)
@@ -136,7 +110,7 @@ int imprimirMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS + 1], char equipos
         for (x = 0; x < NUMERO_PARTIDOS; x++)
         {
             int puntos = matriz[y][x];
-            cout << setw(5) << puntos << "!";
+            cout << setw(8) << puntos << "!";
         }
         int resultado1 = matriz[y][NUMERO_PARTIDOS];
         if (resultado1 > puntosCampeon) //Se va guardando la nota mayor y el nombre del alumno
@@ -158,7 +132,7 @@ int imprimirMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS + 1], char equipos
             memcpy(equipoPeor, equipos[y], MAXIMA_LONGITUD_CADENA);
         }
 
-        cout << setw(5) << resultado1 << "!" << endl;
+        cout << setw(10) << resultado1 << "!" << endl;
         imprimirMatrizLinea();
     }
     //Calculo del promedio general de cada facultad

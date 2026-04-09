@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1775663070 source:c:\users\mrjos\documents\programacion\tablafutbol\main.cpp
+	<iostream>
+	"tablafutbol.h"
+
+1775690461 c:\users\mrjos\documents\programacion\tablafutbol\include\tablafutbol.h
+	<iostream>
+
+1775695794 source:c:\users\mrjos\documents\programacion\tablafutbol\src\tablafutbol.cpp
+	"tablafutbol.h"
+	<iostream>
+	<iomanip>
+
