@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="qZlIAHjC2ENetLhe9kLH">
-    <mxGraphModel dx="854" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="899" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,11 +16,8 @@
             <mxPoint x="400" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="URIB-6rv_ll5GtLN1Jwv-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" value="Pagos/Finanzas" vertex="1">
+        <mxCell id="URIB-6rv_ll5GtLN1Jwv-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" value="D2 | Pagos/finanzas" vertex="1">
           <mxGeometry height="60" width="170" x="320" y="320" as="geometry" />
-        </mxCell>
-        <mxCell id="URIB-6rv_ll5GtLN1Jwv-38" edge="1" parent="1" source="URIB-6rv_ll5GtLN1Jwv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="URIB-6rv_ll5GtLN1Jwv-15">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iyS3fZUuvfP38LrmD4Yf-25" edge="1" parent="1" source="URIB-6rv_ll5GtLN1Jwv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="iyS3fZUuvfP38LrmD4Yf-10">
           <mxGeometry relative="1" as="geometry">
@@ -35,16 +32,8 @@
             <mxPoint x="760" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="URIB-6rv_ll5GtLN1Jwv-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="2.3 Registrar informacion" vertex="1">
+        <mxCell id="URIB-6rv_ll5GtLN1Jwv-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="2.3 Registrar&amp;nbsp; Asignacion" vertex="1">
           <mxGeometry height="80" width="80" x="660" y="300" as="geometry" />
-        </mxCell>
-        <mxCell id="iyS3fZUuvfP38LrmD4Yf-26" edge="1" parent="1" source="URIB-6rv_ll5GtLN1Jwv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="URIB-6rv_ll5GtLN1Jwv-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Informacion de cursos" vertex="1">
-          <mxGeometry height="30" width="140" x="630" y="420" as="geometry" />
         </mxCell>
         <mxCell id="URIB-6rv_ll5GtLN1Jwv-19" edge="1" parent="1" source="URIB-6rv_ll5GtLN1Jwv-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="URIB-6rv_ll5GtLN1Jwv-8" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -54,9 +43,6 @@
         </mxCell>
         <mxCell id="URIB-6rv_ll5GtLN1Jwv-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Monto,Cuenta" vertex="1">
           <mxGeometry height="30" width="60" x="370" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="URIB-6rv_ll5GtLN1Jwv-40" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" value="Estudiantes/ perfil&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="170" x="615" y="500" as="geometry" />
         </mxCell>
         <mxCell id="iyS3fZUuvfP38LrmD4Yf-13" edge="1" parent="1" source="URIB-6rv_ll5GtLN1Jwv-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="URIB-6rv_ll5GtLN1Jwv-10">
           <mxGeometry relative="1" as="geometry" />
