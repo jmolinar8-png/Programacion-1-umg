@@ -1,5 +1,10 @@
 // Ejemplo de utilización de matrices codigo heredado de C
 //Declaraciòn de Bibliotecas y librerias estandar de C++
+
+
+// JOSUE ANTONIO MOLINA RECANCOJ
+//9959-23-1290
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -20,7 +25,7 @@ int NUMERO_GANADOS= 0;
 int NUMERO_PERDIDOS=0;
 int NUMERO_EMPATES=0;
 
-//Declaraciòn de Prototipos de Funciòn
+//Declaraciòn de de Funciones
 void llamaCiclo();   //Funciòn que controla el Ciclo comparativo
 void llenarMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS+1]); //
 void imprimirMatrizLinea(); //Funciòn que apoya el despliegue de titulos en el comparativo de facultades
@@ -161,7 +166,7 @@ int imprimirMatriz(int matriz[NUMERO_EQUIPOS][NUMERO_PARTIDOS + 1], char equipos
         cout << setw(5) << resultado1 << "!" << endl;
         imprimirMatrizLinea();
     }
-    //Calculo del promedio general de cada facultad
+    //Calculo de el ganador, los equipos que van a champions y a la zona de descenso
     cout << "Ganador de la liga: " << equipopuntajemayor << " con " << puntosCampeon <<" pts" << endl;
     cout << "Pase para champions: " << equipopuntajemayor << "y " << equipoSubcampeon<< " con " << puntosSubcampeon << " pts" << endl;
     cout << "zona de descenso: " <<  equipoPeor << " con " << puntosDescenso << " pts"<< endl;

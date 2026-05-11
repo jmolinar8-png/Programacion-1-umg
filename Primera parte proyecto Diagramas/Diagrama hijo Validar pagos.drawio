@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="qZlIAHjC2ENetLhe9kLH">
-    <mxGraphModel dx="899" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1214" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,11 +19,12 @@
         <mxCell id="URIB-6rv_ll5GtLN1Jwv-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" value="D2 | Pagos/finanzas" vertex="1">
           <mxGeometry height="60" width="170" x="320" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="iyS3fZUuvfP38LrmD4Yf-25" edge="1" parent="1" source="URIB-6rv_ll5GtLN1Jwv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="iyS3fZUuvfP38LrmD4Yf-10">
+        <mxCell id="iyS3fZUuvfP38LrmD4Yf-25" edge="1" parent="1" source="URIB-6rv_ll5GtLN1Jwv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iyS3fZUuvfP38LrmD4Yf-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="700" y="400" />
               <mxPoint x="180" y="400" />
+              <mxPoint x="180" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -55,28 +56,20 @@
             <mxPoint x="700" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iyS3fZUuvfP38LrmD4Yf-1" edge="1" parent="1" source="URIB-6rv_ll5GtLN1Jwv-26" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="260" y="199" as="sourcePoint" />
-            <mxPoint x="360" y="199" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iyS3fZUuvfP38LrmD4Yf-12" edge="1" parent="1" source="iyS3fZUuvfP38LrmD4Yf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="240" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="qH9HDT9VW0DafDwBvLHa-2" edge="1" parent="1" source="iyS3fZUuvfP38LrmD4Yf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="URIB-6rv_ll5GtLN1Jwv-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iyS3fZUuvfP38LrmD4Yf-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Alumnos" vertex="1">
-          <mxGeometry height="30" width="60" x="150" y="280" as="geometry" />
+          <mxGeometry height="30" width="60" x="227.5" y="185" as="geometry" />
         </mxCell>
-        <mxCell id="iyS3fZUuvfP38LrmD4Yf-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="URIB-6rv_ll5GtLN1Jwv-26" value="">
+        <mxCell id="iyS3fZUuvfP38LrmD4Yf-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="URIB-6rv_ll5GtLN1Jwv-26" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="220" y="200" as="sourcePoint" />
+            <mxPoint x="360" y="105" as="sourcePoint" />
             <mxPoint x="360" y="199" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="URIB-6rv_ll5GtLN1Jwv-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Finanzas&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="80" x="250" y="185" as="geometry" />
+          <mxGeometry height="30" width="80" x="395" y="90" as="geometry" />
         </mxCell>
         <mxCell id="iyS3fZUuvfP38LrmD4Yf-18" edge="1" parent="1" source="URIB-6rv_ll5GtLN1Jwv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iyS3fZUuvfP38LrmD4Yf-17" value="">
           <mxGeometry relative="1" as="geometry">
@@ -92,6 +85,12 @@
         </mxCell>
         <mxCell id="iyS3fZUuvfP38LrmD4Yf-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Validar Estudiante" vertex="1">
           <mxGeometry height="30" width="60" x="725" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YUoPx6nOY5WhVB9XcegF-2" parent="1" style="shape=stencil(fZbdcgIhDIWfZm8zQAg/17Z9j85U606tdqz9e/tmZ0c0uJ47xP0I5JwEBl59bp8/1kNwn6fj4W39M76ctgM/DCGM++36OJ50NPDjwKvN4bh+PR6+9i/z74/n6ctp9H74nlb4nbmSKZeJCu5vngmZ6jzzNAO7cX8FVKEsBuBKrgKg9oAE8gkCbLeUhEoEQKSUDZDLeWYRKIl8MEDRmHwfyBrBG6Amyu4+kDxxMoB3jhwgYu7TVAsVkFcWCs4CTBEoF4RctKeOxHIf8IXYpikHikAIf+MNUW94AGSSaoAoFIE3AlOyeWU+p2E5S9yfQZcQILVuQOwZdJNoS9Ls3wA5u2XZTIHECqeJ9kDpSaauRiNVcAY1QhdBzeLBli5WazpkSsBLV25uRaqWRyFawTQzRRIQYirJzq5atkBqLfouwqUxLBepthWb10vrWZY6UOAeyKCCtDV625mm9gmUC4Wc3VLJMMIE1BsA2FW9JraVlQB7n3c9oMKhCLEvIM1zBPZ25/umNQ1tVEC2G+fFCC8g398O2hNQuQlVu752DBfA+q0ptnqO5JFmeuIuo9DY7KjY71UxdJV4EntifPWorW++R/dC4t7V3DlIB5cHx2bc7eb3yvX//QNFp+bHDT/+Aw==);lineShape=1;strokeColor=default;" value="" vertex="1">
+          <mxGeometry height="4.910774964587051" width="4.918462918016375" x="388.07153772892184" y="557.1319078510728" as="geometry" />
+        </mxCell>
+        <mxCell id="YUoPx6nOY5WhVB9XcegF-3" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="Clase llamada validacionPagos&lt;div&gt;Atributos, caracteristicas Recibe y da los pagos de un alumno para recibir una solvencia,&amp;nbsp;&lt;/div&gt;&lt;div&gt;Funciones,metodos en este caso realizar una confirmacion de pago, si el pago fue el total a pagar, y dar la solvencia&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="435" x="40" y="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
