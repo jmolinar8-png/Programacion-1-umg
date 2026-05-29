@@ -1,0 +1,33 @@
+commit 9ab7253c9101a5d521ad734a0d7bef50275f664c
+Author: jmolinar8-png <jmolinar8@miumg.edu.gt>
+Date:   Fri May 29 10:49:52 2026 -0600
+
+    CRUD
+
+commit ab96c77246a9c4b721cabfb9d39c9d2f5d03abf7
+Author: jmolinar8-png <jmolinar8@miumg.edu.gt>
+Date:   Fri May 29 10:33:00 2026 -0600
+
+    Clase creada
+
+commit 553ef8b0421ef123f57bc5e14d8f7483898f52d4
+Merge: cf0c092 b835950
+Author: jmolinar8-png <jmolinar8@miumg.edu.gt>
+Date:   Fri May 29 10:21:27 2026 -0600
+
+    Merge pull request #1 from jmolinar8-png/Rama-Menu-General-9959231290
+    
+    MENU CREADO
+
+commit b835950c7a9fb16bdcd2923ebc0d2ef1af8203d2
+Author: jmolinar8-png <jmolinar8@miumg.edu.gt>
+Date:   Fri May 29 10:18:44 2026 -0600
+
+    MENU CREADO
+
+commit cf0c092e2aa71657bf663168ef39000a7c31f416
+Author: jmolinar8-png <jmolinar8@miumg.edu.gt>
+Date:   Fri May 29 09:57:44 2026 -0600
+
+    el archivo PrototipoEFP12026 fue creado
+
