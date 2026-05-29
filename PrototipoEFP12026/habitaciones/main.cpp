@@ -1,9 +1,10 @@
 #include <iostream>
+#include "HABITACIONES.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    HABITACIONES habitacion;
+    habitacion.menu();
 }

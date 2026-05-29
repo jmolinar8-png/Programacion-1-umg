@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1780073224 source:c:\users\mrjos\documents\programacion\prototipoefp12026\habitaciones\main.cpp
+	<iostream>
+	"HABITACIONES.h"
+
+1780073153 source:c:\users\mrjos\documents\programacion\prototipoefp12026\habitaciones\src\habitaciones.cpp
+	"HABITACIONES.h"
+	<iostream>
+	<string>
+	<fstream>
+	<iomanip>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+
+1780072866 c:\users\mrjos\documents\programacion\prototipoefp12026\habitaciones\include\habitaciones.h
+	<iostream>
+	<string>
+
