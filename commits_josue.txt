@@ -1,0 +1,50 @@
+Commit: d31e047
+Autor: Josue-Molina
+Fecha: 2026-05-15 17:36:33
+Mensaje: Modificaciones pequeñas y visuales
+----------------------------------------------------------
+Commit: aee2b46
+Autor: Josue-Molina
+Fecha: 2026-05-15 17:19:27
+Mensaje: Arreglos en el CRUD y archivos txt
+----------------------------------------------------------
+Commit: 291ce1f
+Autor: Josue-Molina
+Fecha: 2026-05-14 21:56:18
+Mensaje: Menu personal arreglado, CRUD funcionando
+----------------------------------------------------------
+Commit: 5855ace
+Autor: Josue-Molina
+Fecha: 2026-05-13 18:33:03
+Mensaje: Arreglos en la clase validacionpagos0 y modulopagos
+----------------------------------------------------------
+Commit: 8cedc17
+Autor: Josue-Molina
+Fecha: 2026-05-13 09:23:46
+Mensaje: Merge branch 'main' of https://github.com/williamcanton2179/Proyectop12k26 into Arreglos3-9959-23-1290
+----------------------------------------------------------
+Commit: 1c8bb4a
+Autor: Josue-Molina
+Fecha: 2026-05-13 09:19:40
+Mensaje: Arreglos en la logica y archivostxt
+----------------------------------------------------------
+Commit: 3d2526b
+Autor: Josue-Molina
+Fecha: 2026-05-12 23:20:06
+Mensaje: Arreglos
+----------------------------------------------------------
+Commit: 6a9b4e7
+Autor: jmolinar8
+Fecha: 2026-05-11 23:14:01
+Mensaje: Limpieza de archivos de configuracion y temporales
+----------------------------------------------------------
+Commit: 9aeb0cb
+Autor: Josue-Molina
+Fecha: 2026-05-11 21:59:19
+Mensaje: Implementacion de CRUD completo en validacion de pagos
+----------------------------------------------------------
+Commit: aafeebc
+Autor: Josue-Molina
+Fecha: 2026-05-11 09:02:53
+Mensaje: clase validacionpagos y su menu
+----------------------------------------------------------
